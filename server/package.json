@@ -9,7 +9,7 @@
     "heroku-postbuild": "npm run install-client && npm run build && npm start",
     "start": "node server/app.js",
     "server": "nodemon server/app.js",
-    "client": "npm start"
+    "client": "cd ../client && npm start"
   },
   "author": "Jason",
   "license": "MIT",

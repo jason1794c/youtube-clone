@@ -6,10 +6,10 @@
   "scripts": {
     "build": "cd client && npm run build",
     "install-client": "cd client && npm install",
-    "heroku-postbuild": "npm run install-client && npm run build && npm start",
+    "heroku-postbuild": "npm run install-client && npm run build",
     "start": "node server/app.js",
     "server": "nodemon server/app.js",
-    "client": "npm start"
+    "client": "cd ../client && npm start"
   },
   "author": "Jason",
   "license": "MIT",
