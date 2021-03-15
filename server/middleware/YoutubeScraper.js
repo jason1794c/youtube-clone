@@ -1,4 +1,5 @@
-import { Client } from 'youtubei';
+import youtubeScraper from 'youtubei';
+const { Client } = youtubeScraper;
 
 const youtube = new Client();
 
