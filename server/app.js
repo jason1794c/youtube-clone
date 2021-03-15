@@ -17,7 +17,7 @@ randomVideosRouter.get('/:searchTerm', YoutubeScraper, (req, res) => {
 
 // Check if the code is on Heroku
 if (process.env.NODE_ENV === 'production') {
-    app.use(express.static('.../client/build'));
+    app.use(express.static('../client/build'));
 }
 
 app.listen(PORT, () => {
