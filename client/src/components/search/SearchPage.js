@@ -9,7 +9,7 @@ function SearchPage() {
     const { search } = useContext(SearchContextProvider);
     
     useEffect(() => {
-        fetch(`/search/${search}`, {
+        fetch(`/search-videos/${search}`, {
             headers: {
                 Accept: 'application/json'
             }

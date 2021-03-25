@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const randomVideosRouter = express.Router();
 
-app.use('/search', randomVideosRouter)
+app.use('/search-videos', randomVideosRouter)
 
 randomVideosRouter.get('/', YoutubeScraper, (req, res) => {
     res.send(req.videos)
