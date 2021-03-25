@@ -22,3 +22,14 @@ The Youtube Clone is a website that is created to look like a replica of the act
 1. Open a terminal and go to the client folder (/client).
 2. Install the dependencies using `npm install`.
 3. Start the client with `npm start`.
+
+## Features
+### Search
+* User can search for videos based on their search keyword
+
+![alt search](https://github.com/jason1794c/youtube-clone/blob/main/client/src/gifs/search.gif)
+
+### Link to Video
+* User can be directed to the Youtube video they click on
+
+![alt link to video](https://github.com/jason1794c/youtube-clone/blob/main/client/src/gifs/link-to-youtube.gif)
