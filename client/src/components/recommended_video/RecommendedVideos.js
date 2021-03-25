@@ -7,7 +7,7 @@ function RecommendedVideos() {
 
     // Fetch the list of random video data
     useEffect(() => {
-        fetch('/search')
+        fetch('/search-videos')
             .then(response => response.json())
             .then(videos => setVideos(videos))
             .catch(err => console.log(err))
